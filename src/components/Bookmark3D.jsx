@@ -116,7 +116,7 @@ const Bookmark3D = ({ type }) => {
   };
 
   return (
-    <group ref={bookmarkRef} position={[0, 1.15, 0]}>
+    <group ref={bookmarkRef} position={[1.0, 1.15, 0]}>
       {/* Ribbon/string của bookmark - thả xuống từ đỉnh sổ */}
       <mesh position={[0, -0.8, 0]}>
         <boxGeometry args={[0.025, 1.8, 0.008]} />
