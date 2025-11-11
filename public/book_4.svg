@@ -1,0 +1,11 @@
+<svg width="400" height="560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="560" fill="#8E44AD"/>
+  <rect x="20" y="20" width="360" height="520" fill="none" stroke="#F39C12" stroke-width="3"/>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F39C12" text-anchor="middle">Giá trị thặng dư</text>
+  <rect x="192" y="250" width="16" height="60" fill="#34495E"/>
+  <ellipse cx="125" cy="265" rx="30" ry="8" fill="#3498DB" opacity="0.8"/>
+  <text x="125" y="275" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFF" text-anchor="middle">V</text>
+  <ellipse cx="255" cy="315" rx="35" ry="10" fill="#E74C3C" opacity="0.8"/>
+  <text x="255" y="325" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFF" text-anchor="middle">M</text>
+  <text x="200" y="450" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#F39C12" text-anchor="middle">m' = M / V</text>
+</svg>
