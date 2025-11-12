@@ -7,6 +7,10 @@ import book1 from './assets/book_1.png';
 import book2 from './assets/book_2.png';
 import book3 from './assets/book_3.png';
 import book4 from './assets/book_4.png';
+import book5 from './assets/book_5.png';
+import book6 from './assets/book_6.png';
+import book7 from './assets/book_7.png';
+import book8 from './assets/book_8.png';
 
 function App() {
   const notebooks = [
@@ -37,6 +41,34 @@ function App() {
       description: "Bìa sổ dùng hình ảnh ẩn dụ về sự mất cân bằng (như cái cân lệch) để thể hiện sự bóc lột. Lột tả bản chất của tỷ suất giá trị thặng dư (m'): nó so sánh trực quan khối V (tiền lương) nhỏ bé với khối M (lợi nhuận) khổng lồ mà người lao động tạo ra.",
       coverImage: book4,
       charm: 'Cái cân lệch'
+    },
+    {
+      id: 5,
+      title: 'Sổ tay 5: Bài bạ hàng hóa',
+      description: 'Bìa sổ này thể hiện một sản phẩm hoàn hảo nhưng lại đổ cái bóng của người công nhân kiệt sức. Nó minh họa cách chúng ta "sùng bái" hàng hóa, chỉ thấy giá trị của nó, mà quên mất rằng đằng sau vẻ hào nhoáng đó là toàn bộ sức lao động và các mối quan hệ xã hội bị che giấu.',
+      coverImage: book5,
+      charm: 'Mặt nạ/Bóng người'
+    },
+    {
+      id: 6,
+      title: 'Sổ tay 6: Tích lũy & Bất bình đẳng',
+      description: 'Bìa sổ này cho thấy một "bong bóng" xa hoa, lấp lánh lơ lửng phía trên một thế giới bị chia cắt. Nó thể hiện hậu quả thực tế của việc tích lũy giá trị thặng dư: tạo ra sự tiêu dùng xa xỉ cho một số ít, đồng thời đào sâu thêm khoảng cách giàu nghèo và sự phân chia rõ rệt trong xã hội.',
+      coverImage: book6,
+      charm: 'Kim tự tháp/Bong bóng'
+    },
+    {
+      id: 7,
+      title: 'Sổ tay 7: Tích lũy vs. Tiêu dùng',
+      description: 'Bìa sổ tay thể hiện một dòng chảy giá trị (M) lớn bị chia làm hai ngả. Một ngả (Quỹ tiêu dùng) chảy về phía các biểu tượng xa xỉ (biệt thự, xe sang). Ngả còn lại (Quỹ tích lũy) chảy ngược về nhà máy, làm nó phình to ra, tượng trưng cho việc tái đầu tư và mở rộng sản xuất.',
+      coverImage: book7,
+      charm: 'Dòng chảy hai ngả'
+    },
+    {
+      id: 8,
+      title: 'Sổ tay 8: Giá trị thặng dư Siêu ngạch',
+      description: 'Bìa sổ tay thể hiện một "cuộc đua" giữa các nhà máy. Một nhà máy rõ ràng hiện đại và hiệu quả hơn (có giá trị cá biệt thấp). Nhà máy này đang tạo ra một khối lợi nhuận lớn vượt trội (gọi là GTTD Siêu ngạch) so với các đối thủ. Hình ảnh này thể hiện động lực cạnh tranh và lợi thế tạm thời do công nghệ.',
+      coverImage: book8,
+      charm: 'Cuộc đua nhà máy'
     }
   ];
 
@@ -47,7 +79,7 @@ function App() {
         <div className="container">
           <h1 className="main-title">Sổ tay Kỹ thuật số: Bóc tách Giá trị thặng dư</h1>
           <p className="subtitle">
-            Khám phá lý thuyết Giá trị thặng dư của Mác qua 4 cuốn sổ tay 3D tương tác, 
+            Khám phá lý thuyết Giá trị thặng dư của Mác qua 8 cuốn sổ tay 3D tương tác, 
             mỗi cuốn được trang bị bookmark 3D độc đáo
           </p>
         </div>
@@ -74,7 +106,7 @@ function App() {
           <h2 className="section-title">2. Sản phẩm</h2>
           <div className="section-content product-intro">
             <p>
-              Đây là một website giới thiệu 4 cuốn sổ tay, mỗi cuốn "bóc tách" một khái niệm cốt lõi 
+              Đây là một website giới thiệu 8 cuốn sổ tay, mỗi cuốn "bóc tách" một khái niệm cốt lõi 
               (và được trang bị bookmark 3D tương ứng):
             </p>
           </div>
@@ -104,12 +136,7 @@ function App() {
             ))}
           </div>
 
-          <div className="product-summary">
-            <p>
-              <strong>Sản phẩm liên kết 100% với bài học</strong>, dùng hình ảnh để thay thế các công thức 
-              và định nghĩa phức tạp.
-            </p>
-          </div>
+
         </div>
       </section>
 
