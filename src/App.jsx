@@ -44,7 +44,7 @@ function App() {
     },
     {
       id: 5,
-      title: 'Sổ tay 5: Bài bạ hàng hóa',
+      title: 'Sổ tay 5: Sùng bái hàng hóa',
       description: 'Bìa sổ này thể hiện một sản phẩm hoàn hảo nhưng lại đổ cái bóng của người công nhân kiệt sức. Nó minh họa cách chúng ta "sùng bái" hàng hóa, chỉ thấy giá trị của nó, mà quên mất rằng đằng sau vẻ hào nhoáng đó là toàn bộ sức lao động và các mối quan hệ xã hội bị che giấu.',
       coverImage: book5,
       charm: 'Mặt nạ/Bóng người'
